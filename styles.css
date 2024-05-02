@@ -1,41 +1,46 @@
-*{
+* {
     font-family: SF Pro Display;
     background-color: black;
     color: white;
     margin: 0;
     padding: 0;
 }
-main{
-    margin-bottom: 50px;
-}
-.all{
+
+
+.all {
     width: 100%;
-    height: 93vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo{
+
+.logo {
     padding-left: 150px;
-    
+
 }
-.logo img{
+
+.logo img {
     width: 420px;
 }
-.text{
+
+.text {
     padding-left: 180px;
 }
-.heading-biggest{
+
+.heading-biggest {
     font-size: 5rem;
     font-weight: bold;
     margin-bottom: 50px;
 }
-.heading-lowest{
+
+.heading-lowest {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 30px;
 }
-.btn{
+
+.btn {
     background-color: white;
     text-align: center;
     color: gray;
@@ -45,60 +50,99 @@ main{
     border: none;
     font-size: 1.1rem;
     margin-bottom: 8px;
+    cursor: pointer;
 }
+
 .signup-with-google img {
     width: 20px;
     color: black;
     vertical-align: middle;
     border: none;
 }
-.signin-with-apple img{
+
+.signin-with-apple img {
     width: 20px;
     color: black;
     vertical-align: middle;
     border: none;
 }
-.apple{
+
+.apple {
     padding: 7px 76px;
 }
-.or{
+
+.or {
     text-align: center;
     color: gray;
 }
-.horizontzl_line { 
-    border: 1px solid #2f3336; 
-    width: 130px; 
+
+.horizontzl_line {
+    border: 1px solid #2f3336;
+    width: 130px;
     margin: 12px;
-    color: white; 
-} 
-.flex{
+    color: white;
+}
+
+.flex {
     display: flex;
     margin-bottom: 5px;
 }
-.create-account{
+
+.create-account {
     background-color: #1DA1F2;
     color: white;
     padding: 9px 100px;
 }
-.line-bottom{
+
+.line-bottom {
     width: 350px;
     font-size: 0.8rem;
     color: gray;
-    margin-bottom: 70px
+    margin-bottom: 60px
 }
-.line-bottom a{
+
+.line-bottom a {
     text-decoration: none;
     color: #1DA1F2;
 }
-.already{
+
+.already {
     font-size: 1.2rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-.signin{
+
+.signin {
     width: 320px;
     height: 38px;
     border: 1px solid #2f3336;
-border-radius: 30px;
-font-size: 1.1rem;
-color: #1DA1F2;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    color: #1DA1F2;
+    cursor: pointer;
+}
+
+
+.footer-lower {
+    text-align: center;
+}
+
+.footer-lower a {
+    margin-left: 10px;
+    color: #2f3336;
+    text-decoration: none;
+}
+
+.footer-lower a:hover {
+    text-decoration: underline;
+}
+
+.last-line {
+    width: 100%;
+    text-align: center;
+
+}
+
+.last-line p {
+    color: #2f3336;
+    margin-top: 10px;
 }

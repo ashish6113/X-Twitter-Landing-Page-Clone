@@ -2,24 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-            margin: auto;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    </style>
+   
 </head>
 
 <body>
     <div class="all">
         <p style="font-size: 2rem; font-weight: bold; margin-top: 10px;
     margin-bottom: 3px; margin-left: 20px;
-    margin-right: 20px;">This is a X Twitter homepage Clone.</p>
+    margin-right: 20px;"><H2>This is a X Twitter homepage Clone.</H2></p>
         <p style="font-size: 1.4rem; margin-left: 20px;
     margin-right: 20px;">Author - Ashish</p>
         <p style="font-size: 1.2rem; margin-top: 10px; margin-bottom: 10px; margin-left: 20px;

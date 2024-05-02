@@ -5,10 +5,14 @@
     margin: 0;
     padding: 0;
 }
+main{
+    margin-bottom: 50px;
+}
 .all{
     width: 100%;
     height: 93vh;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .logo{
@@ -19,14 +23,82 @@
     width: 420px;
 }
 .text{
-    padding-left: 220px;
+    padding-left: 180px;
 }
 .heading-biggest{
     font-size: 5rem;
     font-weight: bold;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 .heading-lowest{
     font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: white;
+    text-align: center;
+    color: gray;
+    display: block;
+    padding: 10px 70px;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+.signup-with-google img {
+    width: 20px;
+    color: black;
+    vertical-align: middle;
+    border: none;
+}
+.signin-with-apple img{
+    width: 20px;
+    color: black;
+    vertical-align: middle;
+    border: none;
+}
+.apple{
+    padding: 7px 76px;
+}
+.or{
+    text-align: center;
+    color: gray;
+}
+.horizontzl_line { 
+    border: 1px solid #2f3336; 
+    width: 130px; 
+    margin: 12px;
+    color: white; 
+} 
+.flex{
+    display: flex;
+    margin-bottom: 5px;
+}
+.create-account{
+    background-color: #1DA1F2;
+    color: white;
+    padding: 9px 100px;
+}
+.line-bottom{
+    width: 350px;
+    font-size: 0.8rem;
+    color: gray;
+    margin-bottom: 70px
+}
+.line-bottom a{
+    text-decoration: none;
+    color: #1DA1F2;
+}
+.already{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.signin{
+    width: 320px;
+    height: 38px;
+    border: 1px solid #2f3336;
+border-radius: 30px;
+font-size: 1.1rem;
+color: #1DA1F2;
 }
